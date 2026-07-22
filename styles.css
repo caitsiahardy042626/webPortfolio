@@ -7,6 +7,12 @@ div{
     border-style: dashed;
     border-width: 4px;
 }
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 2.5rem;
+}
 .title{
     height: 100px;
     width: 100%;
@@ -33,39 +39,54 @@ div{
     margin-left: 60px;
     margin-bottom: 20px;
 }
-.Profile{
+.profile{
     height: 360px;
     width: 360px;
-    border: solid 5px ;
-    border-color: #E6E6FA;
+    border: solid 5px  rgb(77, 75, 75);
     border-radius: 180px;
 }
 .about-me{
-   height: 240px; 
-   width: 480px;
+   height: 360px; 
+   width: 700px;
    display: block;
-   padding: 50px 25px;
    margin-left: 60px;
-   padding-bottom: 60px;
    margin-bottom: 20px;
 }
 .Education{
     height: 300px;
-    width: 360px;
+    width: 480px;
     display: block;
-    padding-bottom: 60px;
 }
 .Projects{
     height: 600px; 
-    width: 320px;
-    display: block;
     padding: 50px 25px;
     margin-left: 50px;
-    padding-bottom: 60px;
     }
-.Software{
-    height: 150px;
+.skills{
     width: 480px;
+    display: block;
+}
+.skills .Software ul{
+    list-style: none;
+}
+.skills .Languages ul{
+    list-style: none;
+}
+.project-card{
+    height: 480px;
+    width: 360px;
+    border-radius: 15px;
+}
+.project-card img{
+    width: 320px;
+    height: 240px;
+    border: rgb(77, 75, 75);
+    border-style: dashed;
+    border-width: 4px;
+}
+.Software{
+    height: 100px;
+    width: 360px;
 }
 .Software .icon{
     min-height: 50px;
