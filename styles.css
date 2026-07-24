@@ -1,26 +1,66 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;    
+    text-align: center;  
+    color: #E6E6FA;  
+    background-color: #2F1B4C;
 }
 div{
-    border: rgb(77, 75, 75);
-    border-style: dashed;
-    border-width: 4px;
+    border: 4px dashed rgb(77, 75, 75);
 }
 h1{
-    font-size: 4rem;
+    font-size: 5rem;
 }
 h2{
-    font-size: 2.5rem;
+    font-size: 2.0rem;
+}
+.color-palette{
+    content: flex;
+    align-items: flex-end;
+}
+.colors{
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+#color1{ 
+    background-color: #0B0B3B;
+    border: 1px solid #8686a0;
+}
+#color2{
+    background-color: #2F1B4C;
+    border: 1px solid #8686a0;
+}
+#color3{
+    background-color: #5A4E9D;
+    border: 1px solid #8686a0;
+} 
+#color4{
+    background-color: #E6E6FA;
+    border: 1px solid #8686a0;
+
+}
+#color5{ 
+    background-color: #CBAACB;
+    border: 1px solid #8686a0;
+
+}
+#color6{
+    background-color: #9671b1;
+    border: 1px solid #8686a0;
+
 }
 .title{
-    height: 100px;
+    height: 200px;
     width: 100%;
     border-radius: 30px 30px 0px 0px;
-    font-size: 2.5rem;
+    background-color: #2F1B4C;
+    color: #E6E6FAaa;
     align-content: center;
     text-align: center;
     padding-bottom: 60px;
+}
+.title h3{
+    font-size: 2.0rem;
 }
 .content-row {
     display: flex;
@@ -30,19 +70,20 @@ h2{
     flex-wrap: wrap; /* let them wrap on smaller screens */
     margin: 20px 0;
 }
-.Profile, .about-me, .Education,
-.Projects, .Software, .Languages, .Contact, .Hobbies {
+.profile, .about-me, .Education,
+.project-card, .Software, .Languages, .Contact {
     display: flex; /* optional if you want internal content alignment */
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 60px;
-    margin-bottom: 20px;
+    margin: 30px 20px 30px;
+    border: solid 5px #E6E6FAaa;
+
 }
 .profile{
     height: 360px;
     width: 360px;
-    border: solid 5px  rgb(77, 75, 75);
+    background-color: #8686a0;
     border-radius: 180px;
 }
 .about-me{
@@ -51,6 +92,7 @@ h2{
    display: block;
    margin-left: 60px;
    margin-bottom: 20px;
+   border-radius: 30px;
 }
 .Education{
     height: 300px;
@@ -78,7 +120,7 @@ h2{
     border-radius: 15px;
 }
 .project-card img{
-    width: 320px;
+    width: 300px;
     height: 240px;
     border: rgb(77, 75, 75);
     border-style: dashed;
