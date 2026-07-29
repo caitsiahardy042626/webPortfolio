@@ -148,7 +148,14 @@ h4{
     width: 360px;
     
 }
-.Software .icon{
+.software-icon{
+    min-height: 50px;
+    min-width: 50px;
+    padding: 5px;
+    align-content: center;
+    justify-content: center;
+}
+.skills .icon{
     min-height: 50px;
     min-width: 50px;
     padding: 5px;
